@@ -461,6 +461,16 @@
         color: #000;
     }
 
+    .contact-form .send-btn {
+        margin-top: 16px;
+        font-size: 15px;
+        padding: 10px 16px;
+        border: none;
+        background-color: #000;
+        color: #fff;
+    }
+
+
     .modal-footer .modal-help {
         float: right;
         padding: 0 16px;
@@ -518,9 +528,9 @@
         margin-top: 64px;
     }
     .send-btn {
-        margin-top: 16px;
+
         float: right;
-        margin-right: 8px;
+        margin-top: 16px;
         
         font-size: 15px;
         padding: 10px 16px;

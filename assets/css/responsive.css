@@ -101,9 +101,8 @@
 
     .contact-form .send-btn {
         margin-top: 16px;
-        width: 382px;
         font-size: 15px;
-        padding: 10px 16px;
+        padding: 10px 0;
         border: none;
         background-color: #000;
         color: #fff;
