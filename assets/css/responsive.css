@@ -1,0 +1,162 @@
+/* Mobile (ip 6,7,8 plus) */
+@media (max-width: 740px){
+    #header .search-btn {
+        display: none;
+    }
+
+
+    #header .menu-mobile-btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+
+    }
+
+    #header{
+    overflow: hidden;
+    }
+
+    #nav > li {
+    display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    
+    #nav .subnav {
+        position: initial
+    }
+    
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #nav li a {
+        display: block;
+        width: 100%;
+        padding: 1px 24px;
+        
+    }
+
+    .subnav li {
+        background-color: #333;
+
+    }
+
+
+    .menu-mobile-btn {
+        display: block;
+    }
+
+
+    .place-buy-ticket {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .places-body {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .col {
+        padding-left: 8px;
+        padding-right: 8px;
+
+    }
+
+    .s-mb-8 {
+        margin-bottom: 8px !important;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-list .member-img{
+        width: 230px;
+
+    }
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-full-width {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .contact-form .send-btn {
+        margin-top: 16px;
+        width: 382px;
+        font-size: 15px;
+        padding: 10px 16px;
+        border: none;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .place-buy-ticket {
+        width: 100%;
+        text-align: center;
+    }
+
+
+}
+
+/* Laptop */
+@media (min-width: 1024px){
+
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width:740px){
+    
+}
+
+/* Tablet,Mobile */
+@media  (max-width: 1023px) {
+    .place-buy-ticket {
+        padding: 15px 17px;
+    }
+
+    .form-control {
+        padding: 15px;
+    }
+
+    .social-list a {
+        font-size: 32px;
+        padding: 8px;
+    }
+
+    .copyright a {
+        display: inline-block;
+        padding: 12px 0;
+    }
+
+
+    #nav .subnav a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+
+    .contact-info {
+        line-height: 2;
+        margin-top: 8px;
+
+    }
+}
