@@ -184,7 +184,7 @@
         padding-top: 50%;
         margin-top: 45px;
         position: relative;
-        background: url(https://huyphamhaha.github.io/The-band/assets/img/sliders/sliders1.jpg) center /cover no-repeat;
+        background: url(../img/sliders/sliders1.jpg) center /cover no-repeat;
     }
 
 
@@ -207,6 +207,7 @@
 
     #sliders .text-content .text-description {
         font-weight: 550;
+        text-shadow: 0 0 3px black;
     }
 
     #content .content-section {

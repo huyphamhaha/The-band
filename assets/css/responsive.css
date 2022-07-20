@@ -1,5 +1,5 @@
 /* Mobile (ip 6,7,8 plus) */
-@media (max-width: 740px){
+@media (max-width:  46.1875em){
     #header .search-btn {
         display: none;
     }
@@ -117,17 +117,17 @@
 }
 
 /* Laptop */
-@media (min-width: 1024px){
+@media (min-width: 64em){
 
 }
 
 /* Tablet */
-@media (max-width: 1023px) and (min-width:740px){
+@media (max-width: 63.9375em) and (min-width:46.25em ){
     
 }
 
 /* Tablet,Mobile */
-@media  (max-width: 1023px) {
+@media  (max-width: 63.9375em) {
     .place-buy-ticket {
         padding: 15px 17px;
     }
